@@ -1,9 +1,9 @@
-@font-face {
+/*@font-face {
   font-family: chalk;
   src : url(chalkduster.woff)
   
 }
-
+*/
 body {
   background-image: linear-gradient( black, rgb(0, 44, 139));
   padding: 800px;

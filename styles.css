@@ -6,7 +6,7 @@
 */
 body {
   background-image: linear-gradient( black, rgb(0, 44, 139));
-  padding: 800px;
+  padding: 600px;
 }
   h1 {
     color: rgb(255, 255, 255);
@@ -16,14 +16,45 @@ body {
     left: 110px;
     font-size: 60px;
     font-family: 'Righteous', cursive;
+   
+   -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+   -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+  
   }
   p {
-    font-size:30px;
-    text-align:center;
+    font-size:24px;
+    text-align:left;
     position: absolute;
-    top: 250px;
-    left: 200px;
-    color: red;
+    top: 270px;
+    left: 110px;
+    color: rgb(139, 139, 139);
     font-family: 'Russo One', sans-serif;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+   -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+
   }
-  
+
+  .links{
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+   -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+
+  }
+  @keyframes bounceIn {
+    0% {
+      transform: translate(0%, 100%);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

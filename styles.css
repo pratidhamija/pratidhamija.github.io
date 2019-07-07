@@ -1,13 +1,13 @@
 @font-face {
-    font-family: chalk;
-    src : url(chalkduster.woff)
+  font-family: chalk;
+  src : url(chalkduster.woff)
 }
 body {
     background-color: rgb(34, 32, 32);
   }
   h1 {
       
-    color: blue;
+    color: rgb(255, 255, 255);
   }
   p {
     color: red;
@@ -15,7 +15,8 @@ body {
   .header {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background: rgb(0,0,0);
     color: white;
     font-size: 30px;
+    font-family: chalk;
   }

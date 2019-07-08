@@ -53,8 +53,11 @@ body {
 
   }
 
-  .l1, .l2, .l3{
+  .l1, .l2, .l3, .l4{
     padding : 20px;
+  }
+  .l1:hover{
+    
   }
   @keyframes bounceIn {
     0% {
@@ -63,5 +66,16 @@ body {
     }
     100% {
       transform: scale(1);
+    }
+  }
+  @keyframes goUp{
+    0%{
+      transform: translate(0%, 0%);
+    }
+    50%{
+      transform: translate(0%, 10%);
+    }
+    100%{
+      transform: translate(0%, 0%);
     }
   }

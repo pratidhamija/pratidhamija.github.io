@@ -6,7 +6,7 @@
 */
 body {
   background-image: linear-gradient( black, rgb(0, 44, 139));
-  padding: 600px;
+  padding: 500px;
 }
   h1 {
     color: rgb(255, 255, 255);
@@ -36,7 +36,7 @@ body {
    -webkit-animation-name: bounceIn;
     animation-name: bounceIn;
     animation-fill-mode: backwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
 
   }
 
@@ -47,7 +47,14 @@ body {
     animation-name: bounceIn;
     animation-fill-mode: backwards;
     animation-delay: 2s;
+    position: absolute;
+    top: 330px;
+    left: 700px;
 
+  }
+
+  .l1, .l2, .l3{
+    padding : 20px;
   }
   @keyframes bounceIn {
     0% {
